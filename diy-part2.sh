@@ -44,7 +44,7 @@ sed -i 's/luci-theme-argon/luci-theme-design/g' feeds/luci/collections/luci/Make
 
 # --- 修改默认 LAN IP 地址 ---
 # 将默认的 192.168.1.1 修改为 192.168.6.1 (防止光猫冲突)
-sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.28.1/g' package/base-files/files/bin/config_generate
 
 
 # =========================================================
